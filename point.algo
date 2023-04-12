@@ -1,0 +1,31 @@
+ALGORITHM ecrire un algorithme
+VAR 
+STRING:='lit une phrase'
+VAR
+CHAR:='qui se termine par un point'
+ VAR
+ CHAR:='caractere par caractere'
+BEGIN
+//la longeur de la phrase (nombre de caractere)
+soit i un entier ;
+soit c un caractere;
+i <-0
+lire (c)
+//le nombre de mots dans la phrase
+PROCEDURE procedure_name(le nombre de mots dans la phrase)
+
+    
+BEGIN
+    printf("le nombre de mot dans la phrase est de :% d/n" ; nombre de mots +1)
+
+//le nombre de voyelles dans la phrase
+BEGIN 
+STRING 
+voyelles=0
+pour i =1 a length (s) faire 
+s {i} faire valeur ('a'ou 'e'ou 'i'ou 'u' ou 'o' ou 'y')
+voyelles=voyelles+1
+
+
+
+END
