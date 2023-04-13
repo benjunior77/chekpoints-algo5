@@ -1,31 +1,26 @@
 ALGORITHM ecrire un algorithme
-VAR 
-STRING:='lit une phrase'
 VAR
-CHAR:='qui se termine par un point'
- VAR
- CHAR:='caractere par caractere'
-BEGIN
-//la longeur de la phrase (nombre de caractere)
-soit i un entier ;
-soit c un caractere;
-i <-0
-lire (c)
-//le nombre de mots dans la phrase
-PROCEDURE procedure_name(le nombre de mots dans la phrase)
+STRING
+ nombre de caractere ; nombre de mots ; nombre de voyelles :INTEGER
+ BEGIN 
+write("donne une phrase qui se termine par un point") bonjour les amis 
+read(lire la phrase)
 
-    
-BEGIN
-    printf("le nombre de mot dans la phrase est de :% d/n" ; nombre de mots +1)
+  nombre de caractere =phrase.length
 
-//le nombre de voyelles dans la phrase
-BEGIN 
-STRING 
-voyelles=0
-pour i =1 a length (s) faire 
-s {i} faire valeur ('a'ou 'e'ou 'i'ou 'u' ou 'o' ou 'y')
-voyelles=voyelles+1
+ecrire("le nombre de caractere de cette phrase est "" ;  nbr de caractere)
 
+  nombre de mots
+FOR i FROM 0 min TO nbr de caractere max STEP -1 step 1 DO
+    IF (phrase {i} === """")
+        nbr mots =nbr mots+1   
+END_FOR
+ecrire ("le nombre de mots de cette phrase est de "; nbr-mots)
 
-
-END
+  nombre de voyelles
+  FOR i FROM 0 min TO nombre de mots max STEP -1 step 1 DO
+    IF (phrase {i} === nbr de mots )
+        nbr de voyelles =nbr de voyelles +1 
+    END_IF
+  END_FOR
+END 
